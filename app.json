@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "GenesysWallet",
+    "slug": "genesys-wallet",
+    "owner": "xolarix",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xolarix.genesyswallet"
+    },
+    "android": {
+      "permissions": ["CAMERA", "READ_PHONE_STATE", "RECORD_AUDIO"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "com.xolarix.genesyswallet"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61c083be-2c12-40a5-baf8-acdc887b2e1e"
+      }
+    }
+  }
+}
